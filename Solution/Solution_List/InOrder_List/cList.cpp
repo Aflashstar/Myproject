@@ -56,7 +56,7 @@ Status cList::ClearList(SqList *L)
 }
 
 /* 初始条件：顺序线性表L已存在，1≤i≤ListLength(L) */
-/* 操作结果：用e返回L中第i个数据元素的值,注意s是指位置，第1个位置的数组是从0开始 */
+/* 操作结果：用e返回L中第i个数据元素的值,注意i是指位置，第1个位置的数组是从0开始 */
 Status cList::GetElem(SqList L, int i, ElemType *e)
 {
 	if (L.length == 0 || i<1 ||  i>L.length) {

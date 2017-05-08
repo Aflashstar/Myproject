@@ -41,11 +41,11 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)$(Platform)\$(TargetName)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)$(Platform)\$(TargetName)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -80,9 +80,13 @@
   <ItemGroup>
     <ClCompile Include="cList.cpp" />
     <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="nList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cList.h" />
+    <ClInclude Include="Interface.h" />
+    <ClInclude Include="nList.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Readme.txt" />

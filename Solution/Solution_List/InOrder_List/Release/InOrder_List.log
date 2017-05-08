@@ -1,5 +1,5 @@
-﻿  cList.cpp
-  Interface.cpp
+﻿  Interface.cpp
+  main.cpp
   正在生成代码
   已完成代码的生成
-  InOrder_List.vcxproj -> e:\Solution\Solution_List\Win32\Release\InOrder_List.exe
+  InOrder_List.vcxproj -> E:\Solution\Solution_List\Win32\InOrder_List\Release\InOrder_List.exe
